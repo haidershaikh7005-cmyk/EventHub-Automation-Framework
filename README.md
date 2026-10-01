@@ -25,6 +25,23 @@
 </h2>
 
 <!-- ABOUT THE PROJECT -->
+# EventHub Automation Framework
+
+This framework is built with **Playwright + Java + Cucumber**.  
+It automates login and dashboard verification for EventHub.  
+
+## Features
+- Modular design with Maven
+- Configurable browser settings
+- Cucumber feature files for BDD
+- Extent HTML/PDF reporting
+- Parallel and serial test execution
+
+## Getting Started
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/haidershaikh7005-cmyk/EventHub-Automation-Framework.git
+
 
 ## About the Project
 
@@ -116,6 +133,8 @@ mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="co
     are saved in `target/rerun.txt`
 11. For rerunning failed test cases run `src/test/java/testrunner/ReRunner.java`
 12. Reports will be generated in `target/HTMLReport` and `target/PdfReport` folders.
+
+    
 
 ## Reports
 
